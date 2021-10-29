@@ -11,7 +11,7 @@ class GroceryManager extends ChangeNotifier {
     notifyListeners();
   }
 
-  void adddItem(GroceryItem item) {
+  void addItem(GroceryItem item) {
     _groceryItems.add(item);
     notifyListeners();
   }
